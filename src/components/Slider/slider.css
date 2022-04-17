@@ -1,0 +1,124 @@
+.slider{
+    width: 100%;
+    background-color: #EEE;
+    position: relative;
+    padding: 4px;
+    display: flex;
+}
+
+.main-article{
+    width: 50%;
+    height: 404px;
+    padding: 4px;
+    background-image: url(../../images/posts/post-1.webp);
+}
+
+.slider-article{
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+    padding: 16px;
+    z-index: 2;
+}
+
+.slider-article h5{
+    background-color: #ff9800;
+    display: table-cell;
+    color: #fff;
+    font-size: 0.625rem;
+    font-weight: 700;
+    padding: 4px 6px 4px;
+    text-transform: uppercase;
+}
+
+.slider-article h2{
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 8px 0 0;
+}
+
+.slider-list{
+    font-size: 0.8125rem;
+    color: #999;
+    font-weight: 400;
+    position: relative;
+    margin: 8px 0 0;
+}
+
+.slider-list li{
+    padding-right: 1rem;
+    display: table-cell;
+    height: 1rem;
+    display: flex;
+    z-index: 1;
+}
+
+.article{
+    cursor: pointer;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    margin: 4px;
+}
+
+.article::after{
+    content: '';
+    transition: opacity .4s ease;
+    display: block;
+    will-change: opacity;
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,#000 99%,#000 100%);
+    opacity: .8;
+}
+
+.article:hover::after{
+    opacity: 1;
+}
+
+.slider::before{
+    display: table;
+    content: ''
+}
+
+.other-article{
+    width: 25%;
+    height: 404px;    
+}
+
+.other-article h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.second-article{
+    background-image: url(../../images/posts/post-2.webp);
+}
+
+.slider div{
+    position: relative;
+    height: 404px;
+}
+
+.third-article{
+    height: 202px;
+    background-image: url(../../images/posts/post-3.webp);
+}
+
+.forth-article{
+    height: 202px;
+    background-image: url(../../images/posts/post-4.webp);
+}
+
+.forth-article h2{
+    font-size: 1rem;
+}
+
+.third-article h2{
+    font-size: 1rem;
+}

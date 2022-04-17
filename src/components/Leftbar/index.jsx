@@ -3,7 +3,7 @@ import './leftbar.css';
 
 const index = () => {
   return (
-    <div>leftbar</div>
+    <div className='leftbar'>leftbar</div>
   )
 }
 

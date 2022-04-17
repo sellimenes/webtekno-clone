@@ -122,3 +122,36 @@
 .third-article h2{
     font-size: 1rem;
 }
+
+@media screen and (max-width: 1240px) {
+    .slider-list{
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 964px) {
+    .slider{
+        flex-direction: column;
+    }
+    .article{
+        margin: 0.1rem;
+        height: 300px;
+        width: 100%;
+    }
+
+    .other-article{
+        width: 100%;
+    }
+
+    .slider-article h5{
+        font-size: 0.9rem;
+    }
+
+    .slider-article h2{
+        font-size: 1.8rem;
+    }
+
+    .slider-list{
+        font-size: 1rem;
+    }
+}

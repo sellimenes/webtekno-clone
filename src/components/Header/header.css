@@ -74,3 +74,29 @@ ul li{
     align-items: center;
     gap: 0.6rem;
 }
+
+@media screen and (max-width: 1100px) {
+    html{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    html{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    html{
+        font-size: 12px;
+    }
+
+    ul{
+        display: none;
+    }
+
+    .header-login span{
+        display: none;
+    }
+}

@@ -22,7 +22,7 @@ const index = () => {
       </div>
       <div className="header-right">
         <GoSearch size={28} className='search-icon'/>
-        <p className='header-login'><FaUser className='user-icon' size={28}/> Giriş Yap</p>
+        <p className='header-login'><FaUser className='user-icon' size={28}/> <span>Giriş Yap</span></p>
         <MdFavorite size={28} className='favs-icon'/>
       </div>
     </div>

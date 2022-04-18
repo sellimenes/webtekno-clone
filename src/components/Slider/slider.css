@@ -132,6 +132,7 @@
 @media screen and (max-width: 964px) {
     .slider{
         flex-direction: column;
+        margin-bottom: 200px;
     }
     .article{
         margin: 0.1rem;

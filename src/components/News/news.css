@@ -1,21 +1,16 @@
-.container{
-    max-width: 100rem;
-    margin: auto;
-    margin-top: 2rem;
-}
-
 .yayin-akisi{
     max-width: calc(100% - 106px);
     font-size: 1.375rem;
     font-weight: 700;
     color: #ff5722;
-    margin-bottom: 1rem;
 }
 
 .news-wrapper{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
+    max-width: 54rem;
 }
 
 .news-left{
@@ -36,6 +31,7 @@
     font-size: .6875rem;
     color: #999;
     text-align: center;
+    white-space: nowrap;
 }
 
 .news{
@@ -46,6 +42,7 @@
 
 .news-img{
     width: 17rem;
+    cursor: pointer;
 }
 
 .news-content{
@@ -73,6 +70,7 @@
     font-size: 1.375rem;
     font-weight: 700;
     color: #222;
+    cursor: pointer;
 }
 
 .news-content h2:hover{

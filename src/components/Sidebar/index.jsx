@@ -3,7 +3,14 @@ import './sidebar.css';
 
 const index = () => {
   return (
-    <div>sidebar</div>
+    <aside className='sidebar'>
+      <div>
+        <p className='yayin-akisi'>Follow Us</p>
+        <div className="social-card">
+          
+        </div>
+      </div>
+    </aside>
   )
 }
 

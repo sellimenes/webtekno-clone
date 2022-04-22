@@ -1,8 +1,6 @@
-.social-icon-facebook{
-    color: #5374B3;
-    font-size: 3rem;
-    z-index: 2;
-    padding: 0.1rem;
+.cards{
+    display: flex;
+    gap: 1rem;
 }
 
 .single-card{
@@ -13,14 +11,27 @@
 }
 
 .card-header{
-    background-color: #5374B3;
-    width: 100%;
-    height: 3.3rem;
+    width: 3.6rem;
+    height: 3rem;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-content{
     box-shadow: 1px 1px 1px 0 rgb(0 0 0 / 10%);
+    width: 3.6rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon{
+    color: #fff;
+    font-size: 2.5rem;
 }
 
 .social-counter{
@@ -32,4 +43,21 @@
 .social-cta{
     color: #ABABAD;
     font-size: .6875rem;
+    text-transform: uppercase;
+}
+
+.card-facebook{
+    background-color: #5374B3;
+}
+
+.card-twitter{
+    background-color: #5cb4f4;
+}
+
+.card-instagram{
+    background-color: #0076b7;
+}
+
+.card-youtube{
+    background-color: #f44336;
 }

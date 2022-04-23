@@ -21,13 +21,15 @@ const index = () => {
             <MdPhoneIphone size={42} className="news-icon"/>
             <span>48 Mins Ago</span>
           </div>
-          <img src={News2} alt="news image" className='news-img'/>
-          <div className="news-content">
-            <p className='news-tag'>NEWS TAG</p>
-            <h2>iPhone 14 Tanıtıldıktan Sonra Hangi iPhone Modellerine Veda Edeceğiz?</h2>
-            <div className='news-meta'>
-              <p className='news-author'>Author Name</p>
-              <span>48 Mins Ago</span>
+          <div className="news-right">
+            <img src={News2} alt="news image" className='news-img'/>
+            <div className="news-content">
+              <p className='news-tag'>NEWS TAG</p>
+              <h2>iPhone 14 Tanıtıldıktan Sonra Hangi iPhone Modellerine Veda Edeceğiz?</h2>
+              <div className='news-meta'>
+                <p className='news-author'>Author Name</p>
+                <span>48 Mins Ago</span>
+              </div>
             </div>
           </div>
         </div>
@@ -36,11 +38,16 @@ const index = () => {
             <FaRegNewspaper size={42} className="news-icon"/>
             <span>1 Hour Ago</span>
           </div>
-          <img src={News1} alt="news image" className='news-img'/>
-          <div className="news-content">
-            <p className='news-tag'>NEWS TAG</p>
-            <h2>Tarih Boyunca Dünya Ekonomisini Şekillendiren Altın Fiyatları Aslında Neye Göre Belirleniyor?</h2>
-            <p className='news-author'>Author Name</p>
+          <div className="news-right">
+            <img src={News1} alt="news image" className='news-img'/>
+            <div className="news-content">
+              <p className='news-tag'>NEWS TAG</p>
+              <h2>Tarih Boyunca Dünya Ekonomisini Şekillendiren Altın Fiyatları Aslında Neye Göre Belirleniyor?</h2>
+              <div className='news-meta'>
+                <p className='news-author'>Author Name</p>
+                <span>1 Hour Ago</span>
+              </div>
+            </div>
           </div>
         </div>
         <div className="news">
@@ -48,11 +55,16 @@ const index = () => {
             <BsApple size={42} className="news-icon"/>
             <span>3 Hour Ago</span>
           </div>
-          <img src={News3} alt="news image" className='news-img'/>
-          <div className="news-content">
-            <p className='news-tag'>NEWS TAG</p>
-            <h2>‘En Ucuz MacBook’ Olacak MacBook Air 2022'nin Tasarımı Ortaya Çıktı</h2>
-            <p className='news-author'>Author Name</p>
+          <div className="news-right">
+            <img src={News3} alt="news image" className='news-img'/>
+            <div className="news-content">
+              <p className='news-tag'>NEWS TAG</p>
+              <h2>‘En Ucuz MacBook’ Olacak MacBook Air 2022'nin Tasarımı Ortaya Çıktı</h2>
+              <div className='news-meta'>
+                <p className='news-author'>Author Name</p>
+                <span>43 Hours Ago</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

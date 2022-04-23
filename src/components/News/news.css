@@ -13,13 +13,6 @@
     max-width: 54rem;
 }
 
-.news-left{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.7rem;
-}
-
 .news-icon{
     color: white;
     background-color: #ff9800;
@@ -28,13 +21,27 @@
 }
 
 .news-left span{
-    font-size: .6875rem;
+    font-size: .62rem;
     color: #999;
     text-align: center;
     white-space: nowrap;
 }
 
 .news{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.news-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+    width: 2rem;
+}
+
+.news-right{
     display: flex;
     align-items: center;
     gap: 1rem;

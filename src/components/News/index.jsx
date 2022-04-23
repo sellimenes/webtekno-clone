@@ -19,7 +19,7 @@ const index = () => {
         <div className="news">
           <div className='news-left'>
             <MdPhoneIphone size={42} className="news-icon"/>
-            <span>1 Hour Ago</span>
+            <span>48 Mins Ago</span>
           </div>
           <img src={News2} alt="news image" className='news-img'/>
           <div className="news-content">

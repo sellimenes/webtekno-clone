@@ -13,7 +13,7 @@ import News3 from '../../images/posts/news-3.webp';
 
 const index = () => {
   return (
-    <div className=''>
+    <div className='news-section'>
       <div className="news-wrapper">
         <h3 className='yayin-akisi'>Latest News</h3>
         <div className="news">

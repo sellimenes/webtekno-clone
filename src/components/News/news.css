@@ -76,3 +76,9 @@
 .news-content h2:hover{
     color: #ff5722;
 }
+
+@media screen and (max-width: 965px) {
+    .news-section{
+        margin: auto;
+    }
+}

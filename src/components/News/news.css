@@ -82,3 +82,46 @@
         margin: auto;
     }
 }
+
+@media screen and (max-width: 680px){
+    .news-section{
+        width: 95vw;
+        margin: auto;
+    }
+    
+    .yayin-akisi{
+        text-align: center;
+        margin: auto;
+        font-size: 2rem;
+    }
+
+    .news-icon{
+        display: none;
+    }
+
+    .news{
+        flex-direction: column;
+        order: 1;
+    }
+
+    .news-img{
+        width: 100%;
+    }
+
+    .news-left span{ /* How to order ---1 hour ago--- on mobile */
+        order: 5;
+    }
+
+    .news::after{
+        background-color: #EEE;
+        height: 1px;
+        content: '';
+        display: block;
+        width: calc(100% + 2rem);
+        margin: 1rem -1rem 0;
+    }
+
+    .news-content h2{
+        font-weight: 400;
+    }
+}

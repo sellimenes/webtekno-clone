@@ -113,7 +113,10 @@
 
     .news{
         flex-direction: column;
-        order: 1;
+    }
+
+    .news-right{
+        flex-direction: column;
     }
 
     .news-img{

@@ -25,7 +25,10 @@ const index = () => {
           <div className="news-content">
             <p className='news-tag'>NEWS TAG</p>
             <h2>iPhone 14 Tanıtıldıktan Sonra Hangi iPhone Modellerine Veda Edeceğiz?</h2>
-            <p className='news-author'>Author Name</p>
+            <div className='news-meta'>
+              <p className='news-author'>Author Name</p>
+              <span>48 Mins Ago</span>
+            </div>
           </div>
         </div>
         <div className="news">
